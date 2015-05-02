@@ -8,7 +8,7 @@ public class Profesor extends Persona
 
 	protected String nombre;
 	protected String dni;
-	
+	protected int salario;
 	
 	public Profesor( String nombre, String dni)
 	{
@@ -23,5 +23,19 @@ public class Profesor extends Persona
 	{
 		return true;
 	}
+	
+	
+	//salario get y set
+	public int getSalario()
+	{
+		return salario;
+	}
+	
+	public void setSalario(int salario)
+	{
+		this.salario = salario;
+	}
+	
+	
 }
 
