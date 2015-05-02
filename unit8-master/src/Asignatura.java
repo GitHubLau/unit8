@@ -1,7 +1,5 @@
 /**
- * 
  * @author LAURA MARTINEZ PRIEGO 1oDAM
- *
  */
 public class Asignatura
 {
